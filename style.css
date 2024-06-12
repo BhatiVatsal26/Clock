@@ -1,0 +1,28 @@
+body{
+    background: url("https://www.pixel4k.com/wp-content/uploads/2018/03/Downtown%20Manhattan427984949.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.container{
+    backdrop-filter: blur(3px);
+    height: 100px;
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.064);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clock{
+    font-size: 7vh;
+    color: white;
+    font-family: monospace;
+}
